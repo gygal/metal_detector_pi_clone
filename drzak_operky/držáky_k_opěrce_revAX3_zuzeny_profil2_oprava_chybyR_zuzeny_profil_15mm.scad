@@ -26,22 +26,24 @@ union()
 //cylinder-nepouzite skoseni napojeni tyce pro usazeni v rukojeti
 
 //zakladnï¿½
-translate([0,10,48]) rotate ([90,0,0])cylinder(h = 20, r=35);
+translate([0,10,48]) rotate ([90,0,0])cylinder(h = 15, r=20);
 // 40 je nastavena vnitrni prumer na 35 a vnejsi na 40
         
 } 
-#translate([-10,-10,-19]) cube([20,20,35]); 
+#translate([-7,-5,-2]) cube([15,15,35], center = false);
+
+//tloustka upnutí 15mm 
 // umisteni ctverce pro dosazeni do rukojeti
 //tloustka operky je 4mm + 14mm pro zesileni
 //19 je posun nahoru a dolu/////35 vyska propojky
 }
-translate([0,10,48]) rotate ([90,0,0])cylinder(h = 20, r=28);
+translate([0,10,48]) rotate ([90,0,0])cylinder(h = 20, r=14);
 // odecitaci valec pro otvor na osazenï¿½ tyï¿½e
 }
-translate([0,0,90]) rotate ([90,0,0]) cube(size = [20,20,20], center = true);
+translate([0,2.5,73]) rotate ([90,0,0]) cube(size = [18,15,15], center = true);
 //sloupky pro utazeni
 }
-translate([0,10,90]) rotate ([0,0,0])cube(size = [7,50,40], center = true);
+translate([0,10,75]) rotate ([0,0,0])cube(size = [7,50,40], center = true);
 //odecet distancni mezery
 }        
 
