@@ -1,3 +1,4 @@
+rotate([90, 0, 0]){
 difference() 
 { 
 // ode�et distan�n� mezery
@@ -30,7 +31,7 @@ union()
 // 40 je nastavena vnitrni prumer na 35 a vnejsi na 40
         
 } 
-translate([0,0,0]) rotate ([0,0,0]) cylinder(h=35, r=10,$fn=6); 
+translate([0,-0.8,0]) rotate ([0,0,0]) cylinder(h=35, r=9.7,$fn=6); 
 // umisteni ctverce pro dosazeni do rukojeti
 //tloustka operky je 4mm + 14mm pro zesileni
 //19 je posun nahoru a dolu/////35 vyska propojky
@@ -51,3 +52,4 @@ translate([0,10,80]) rotate ([0,0,0])cube(size = [7,50,40], center = true);
 
 //# pro zviditeleneni
 //priblizeni shift+prav tlacitko mysi+ pousouvani dopredu/dozadu
+}

@@ -1,3 +1,6 @@
+//rotace pro tisk
+
+
 difference() 
 { 
 // odeï¿½et distanï¿½nï¿½ mezery
@@ -32,7 +35,7 @@ translate([0,10,48]) rotate ([90,0,0])cylinder(h = 15, r=20);
 } 
 #translate([-7,-5,-2]) cube([15,15,35], center = false);
 
-//tloustka upnutí 15mm 
+//tloustka upnutï¿½ 15mm 
 // umisteni ctverce pro dosazeni do rukojeti
 //tloustka operky je 4mm + 14mm pro zesileni
 //19 je posun nahoru a dolu/////35 vyska propojky
